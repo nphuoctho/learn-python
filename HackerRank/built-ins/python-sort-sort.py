@@ -1,14 +1,10 @@
-#!/bin/python3
+"""
+Athlete Sort
 
-import math
-import os
-import random
-import re
-import sys
+Difficulty Level: Medium
+"""
 
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     nm = input().split()
 
     n = int(nm[0])
@@ -21,3 +17,7 @@ if __name__ == '__main__':
         arr.append(list(map(int, input().rstrip().split())))
 
     k = int(input())
+
+    arr.sort(key=lambda x: x[k])
+
+    print("\n".join(" ".join(map(str, row)) for row in arr))

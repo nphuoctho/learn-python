@@ -1,16 +1,12 @@
-ijfadlkjflk
+"""
+Nested Lists
 
-
-fadsf
-
-asd = fasakdslfjlk
-fda
-
+Difficulty Level: Easy
+"""
 
 if __name__ == "__main__":
     student_marks = []
-    for _ in range(int(input()))
-        fadf
+    for _ in range(int(input())):
         name = input()
         score = float(input())
         student_marks.append([name, score])
